@@ -5,6 +5,7 @@ public class Year extends Employee{
 	private int monthJoined;
 	private int dayJoined;
 	private int monthWorkingInYear;
+    
     public Year(String employeeId, String firstName, String lastName, String idNumber, String address, int yearJoined,
             int monthJoined, int dayJoined, boolean isForeigner, boolean gender, int yearJoined2, int monthJoined2,
             int dayJoined2, int monthWorkingInYear) {
@@ -15,6 +16,8 @@ public class Year extends Employee{
         dayJoined = dayJoined2;
         this.monthWorkingInYear = monthWorkingInYear;
     }
+
+    
 
         
 }
